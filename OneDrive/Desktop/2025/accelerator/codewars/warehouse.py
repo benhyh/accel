@@ -163,3 +163,16 @@ def sequence_sum(begin_number, end_number, step):
 
 def unsual_five():
     return len("hello")
+
+def is_isogram(string):
+    seen = set()
+    for char in string.lower():
+        if char in seen:
+            return False
+        seen.add(char)
+    return True
+
+    # return len(set(string.lower())) == len(string)
+
+def get_sum(a, b):
+    return sum(range(min(a, b), max(a, b) + 1))
