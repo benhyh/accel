@@ -176,3 +176,37 @@ def is_isogram(string):
 
 def get_sum(a, b):
     return sum(range(min(a, b), max(a, b) + 1))
+
+geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+def goose_filter(birds):
+    for bird in geese:
+        if bird in birds:
+            birds.remove(bird)
+    return birds
+
+def min_max(lst):
+  return [min(lst), max(lst)]
+
+def calculate_years(principal, interest, tax, desired):
+    year = 0
+
+    while (principal < desired):
+        accrued = (interest * principal)
+        amount = accrued - (tax * accrued)
+        principal += amount
+        year += 1
+
+    return year
+
+def xor(a,b):
+    return a != b
+
+def small_enough(array, limit):
+    for element in array:
+        if element < limit:
+            continue
+        else:
+            return False
+    return True
+
+    # return max(array) <= limit
