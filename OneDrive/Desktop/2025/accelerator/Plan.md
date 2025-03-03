@@ -1,117 +1,188 @@
-# Accelerated Learning Schedule: Practical-First Approach
+# Accelerated Learning Schedule: Project-First Approach
 
 ## Core Principles
 - **80/20 Rule**: 80% hands-on practice, 20% theory
-- **Learn by Doing**: Build projects from day one
-- **Incremental Complexity**: Start simple, add features gradually
-- **Continuous Integration**: Combine new concepts into existing projects
-- **Daily Code Time**: Minimum 4 hours of active coding
+- **Project-Driven**: Learn through building
+- **Daily Code Time**: 4-6 hours of active coding
 
 ## Phase 1: Python Foundations (2 Weeks)
-> Focus: Learn Python by building utility tools
 
-### Week 1: Basic Python & Tools
+### Week 1: Personal Task Automation Suite
 ```
-Monday:
-- 💻 Afternoon (3h): Build a CLI Task Manager
-  - Practice basic syntax
-  - Handle file I/O
-  - Use dictionaries and lists
-- 📚 Evening (1h): Read about Python best practices
+Project Goal: Build a desktop automation tool that combines file management, task scheduling, and GUI
+- Monday: Basic CLI task manager
+- Tuesday-Wednesday: File operations and automation
+- Thursday-Friday: Data processing and storage
+- Weekend: Add GUI interface
 
-Tuesday:
-- 🎯 Morning (2h): Enhance Task Manager
-  - Add command-line arguments
-  - Implement CRUD operations
-- 💻 Afternoon (3h): Add data persistence
-  - JSON file handling
-  - Error handling
-- 📚 Evening (1h): Study Python data structures
-
-Wednesday:
-- 🎯 Morning (2h): Build File Organizer Script
-  - Work with OS module
-  - Handle different file types
-- 💻 Afternoon (3h): Add automation features
-  - Implement file watching
-  - Add logging
-- 📚 Evening (1h): Learn about Python generators
-
-Thursday:
-- 🎯 Morning (2h): Create Data Scraper
-  - Use requests library
-  - Parse HTML with BeautifulSoup
-- 💻 Afternoon (3h): Enhance scraper
-  - Add data processing
-  - Export to CSV/Excel
-- 📚 Evening (1h): Study web scraping best practices
-
-Friday:
-- 🎯 Morning (2h): Build PDF Processor
-  - Use PyPDF2
-  - Extract text and metadata
-- 💻 Afternoon (3h): Add features
-  - Merge PDFs
-  - Add watermarks
-- 🔄 Evening (1h): Code review and refactoring
-
-Weekend Project:
-- 🚀 Build a Personal Automation Suite
-  - Combine week's learning into one tool
-  - Add GUI with tkinter
+📚 Primary Resource: "Automate the Boring Stuff with Python"
+- Focus Chapters:
+  - Files and Organization
+  - Pattern Matching
+  - GUI Automation
+  - Working with CSV/JSON
 ```
 
-### Week 2: Advanced Python Concepts
+### Week 2: Production-Grade Logger & Monitoring Tool
 ```
-Monday:
-- 🎯 Morning (2h): Build Custom Logger
-  - Implement decorators
-  - Use context managers
-- 💻 Afternoon (3h): Create test suite
-  - Write unit tests
-  - Set up CI pipeline
-- 📚 Evening (1h): Study Python testing
+Project Goal: Build a system monitoring tool with logging, async operations, and web dashboard
+- Monday-Tuesday: Custom logger implementation
+- Wednesday-Thursday: System monitoring features
+- Friday: Dashboard and notifications
+- Weekend: Package and distribute
 
-Tuesday:
-- 🎯 Morning (2h): Build API Client
-  - Use async/await
-  - Handle rate limiting
-- 💻 Afternoon (3h): Add caching
-  - Implement connection pooling
-  - Add retry logic
-- 📚 Evening (1h): Learn about async programming
+📚 Primary Resource: "Python for DevOps" (O'Reilly)
+- Focus Areas:
+  - System Programming
+  - Async Operations
+  - Package Development
+```
 
-Wednesday:
-- 🎯 Morning (2h): Create Data Pipeline
-  - Use generators
-  - Process large files
-- 💻 Afternoon (3h): Optimize pipeline
-  - Add multiprocessing
-  - Implement progress tracking
-- 📚 Evening (1h): Study Python optimization
+## Phase 2: Data Structures & Algorithms (3 Weeks)
 
-Thursday:
-- 🎯 Morning (2h): Build CLI Dashboard
-  - Use rich library
-  - Real-time updates
-- 💻 Afternoon (3h): Add features
-  - System monitoring
-  - Resource tracking
-- 📚 Evening (1h): Learn about system programming
+### Week 3: Search Engine Implementation
+```
+Project Goal: Build a file content search engine using various data structures
+- Monday-Tuesday: Implement indexing (Hash Tables)
+- Wednesday-Thursday: Search algorithms
+- Friday: Ranking and sorting
+- Weekend: UI and optimizations
 
-Friday:
-- 🎯 Morning (2h): Create Package
-  - Structure project
-  - Write documentation
-- 💻 Afternoon (3h): Publish package
-  - Set up PyPI deployment
-  - Write examples
-- 🔄 Evening (1h): Code review
+📚 Primary Resource: "Grokking Algorithms"
+- Focus: Searching, Sorting, Hash Tables
+```
 
-Weekend Project:
-- 🚀 Build DevOps Tool
-  - Combine week's concepts
-  - Add plugin system
+### Week 4: Route Planning System
+```
+Project Goal: Build a route planning system with visualization
+- Monday-Tuesday: Graph implementation
+- Wednesday-Thursday: Pathfinding algorithms
+- Friday: Optimization algorithms
+- Weekend: Visual interface
+
+📚 Primary Resource: "Algorithm Design Manual"
+- Focus: Graph Algorithms, Optimization
+```
+
+### Week 5: Auto-Complete Engine
+```
+Project Goal: Build a predictive text system
+- Monday-Tuesday: Trie implementation
+- Wednesday-Thursday: Word prediction
+- Friday: Ranking system
+- Weekend: API integration
+
+📚 Primary Resource: "Open Data Structures"
+- Focus: Trees, Tries, Priority Queues
+```
+
+## Phase 3: Web Development (3 Weeks)
+
+### Week 6: E-Commerce API
+```
+Project Goal: Build a scalable e-commerce backend
+- Monday-Tuesday: Core API with FastAPI
+- Wednesday-Thursday: Database models
+- Friday: Authentication
+- Weekend: Testing and documentation
+
+📚 Primary Resource: "FastAPI Documentation"
+- Focus: REST, Database Design, Security
+```
+
+### Week 7: Real-Time Chat Platform
+```
+Project Goal: Build a real-time messaging system
+- Monday-Tuesday: WebSocket implementation
+- Wednesday-Thursday: Message handling
+- Friday: User presence system
+- Weekend: Frontend integration
+
+📚 Primary Resource: "Full Stack Python"
+- Focus: WebSockets, Real-time Systems
+```
+
+### Week 8: Analytics Dashboard
+```
+Project Goal: Build a real-time analytics system
+- Monday-Tuesday: Data collection API
+- Wednesday-Thursday: Processing pipeline
+- Friday: Visualization
+- Weekend: Deployment
+
+📚 Primary Resource: "Designing Data-Intensive Applications"
+- Focus: Data Processing, Analytics
+```
+
+## Phase 4: Machine Learning (4 Weeks)
+
+### Week 9: Smart Email Classifier
+```
+Project Goal: Build an email classification system
+- Monday-Tuesday: Data preprocessing
+- Wednesday-Thursday: Model development
+- Friday: Training pipeline
+- Weekend: Integration
+
+📚 Primary Resource: "Introduction to Statistical Learning"
+- Focus: Classification, Text Processing
+```
+
+### Week 10: Image Recognition Service
+```
+Project Goal: Build an image recognition API
+- Monday-Tuesday: CNN implementation
+- Wednesday-Thursday: Model training
+- Friday: API development
+- Weekend: Web interface
+
+📚 Primary Resource: "Deep Learning with Python"
+- Focus: CNNs, Computer Vision
+```
+
+### Week 11: Chatbot with NLP
+```
+Project Goal: Build an intelligent chatbot
+- Monday-Tuesday: NLP pipeline
+- Wednesday-Thursday: Response generation
+- Friday: Context handling
+- Weekend: Web deployment
+
+📚 Primary Resource: "Natural Language Processing with Python"
+- Focus: Text Processing, Transformers
+```
+
+### Week 12: Recommendation Engine
+```
+Project Goal: Build a product recommendation system
+- Monday-Tuesday: User behavior analysis
+- Wednesday-Thursday: Recommendation algorithms
+- Friday: A/B testing system
+- Weekend: Dashboard and monitoring
+
+📚 Primary Resource: "Machine Learning Engineering"
+- Focus: Recommendation Systems, Testing
+```
+
+## Success Metrics
+- Each project should be production-ready
+- Include tests and documentation
+- Deployed and accessible online
+- Added to portfolio with blog post
+
+## Daily Structure
+```
+Morning (3h):
+- 1h: Study core concepts from resource
+- 2h: Implement main features
+
+Afternoon (3h):
+- 2h: Project development
+- 1h: Testing and refinement
+
+Evening (1h):
+- Documentation
+- Planning next day
 ```
 
 ## Theory Resources & Topics
@@ -284,108 +355,6 @@ Advanced ML:
 - 3Blue1Brown (Linear Algebra, Neural Networks)
 - Sentdex Python Programming
 ```
-
-## Phase 2: Data Structures & Algorithms (3 Weeks)
-> Focus: Learn by implementing and solving real problems
-
-### Week 3-5: Practical DS&A
-```
-Daily Schedule:
-09:00-10:00 - Implement one DS/Algorithm from scratch
-10:00-12:00 - Solve 2-3 practical LeetCode problems
-13:00-15:00 - Build a project using today's DS/Algorithm
-15:00-16:00 - Optimize existing projects using new concepts
-16:00-17:00 - Theory study and solution review
-
-Weekly Projects:
-Week 3: Data Structure Focus
-- Build in-memory cache (Hash Tables)
-- Implement task scheduler (Queues)
-- Create file system simulator (Trees)
-
-Week 4: Algorithm Focus
-- Build search engine (Search Algorithms)
-- Create route planner (Graph Algorithms)
-- Implement data compressor (String Algorithms)
-
-Week 5: Advanced Topics
-- Build auto-complete system (Tries)
-- Create load balancer (Heap)
-- Implement database indexing (B-Trees)
-```
-
-## Phase 3: Web Development (3 Weeks)
-> Focus: Build full-stack applications
-
-### Week 6-8: Project-Based Learning
-```
-Daily Schedule:
-09:00-11:00 - Build feature/component
-11:00-12:00 - API design and implementation
-13:00-15:00 - Frontend development
-15:00-16:00 - Testing and optimization
-16:00-17:00 - Study architectural patterns
-
-Progressive Project Building:
-Week 6: Basic Web App
-- Day 1-2: REST API with FastAPI
-- Day 3-4: Database integration
-- Day 5: Authentication
-Weekend: Deploy MVP
-
-Week 7: Advanced Features
-- Day 1-2: Real-time updates
-- Day 3-4: File handling
-- Day 5: Caching
-Weekend: Performance optimization
-
-Week 8: Production Ready
-- Day 1-2: Monitoring
-- Day 3-4: Security
-- Day 5: Documentation
-Weekend: Full deployment
-```
-
-## Phase 4: Machine Learning (4 Weeks)
-> Focus: Build practical ML applications
-
-### Week 9-12: Applied ML
-```
-Daily Schedule:
-09:00-10:00 - Theory/Math concept
-10:00-12:00 - Implement algorithm from scratch
-13:00-15:00 - Work on ML project
-15:00-16:00 - Data preprocessing/Feature engineering
-16:00-17:00 - Model evaluation/optimization
-
-Progressive Projects:
-Week 9: Classical ML
-- Build spam classifier
-- Implement recommendation system
-- Create anomaly detector
-
-Week 10: Computer Vision
-- Build image classifier
-- Create object detector
-- Implement face recognition system
-
-Week 11: NLP
-- Build sentiment analyzer
-- Create chatbot
-- Implement text summarizer
-
-Week 12: Advanced ML
-- Build reinforcement learning agent
-- Create generative model
-- Implement ensemble system
-```
-
-## Success Metrics
-- **Projects Completed**: Aim for 12-15 substantial projects
-- **GitHub Contributions**: Daily commits
-- **Code Review**: Weekly peer reviews
-- **Blog Posts**: Document major project learnings
-- **Portfolio**: Update with best projects
 
 ## Tips for Success
 - 🔄 Start each day by reviewing yesterday's code
