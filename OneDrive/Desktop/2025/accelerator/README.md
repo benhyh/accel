@@ -8,22 +8,67 @@
     - **Books**: *Automate the Boring Stuff* (practical scripting) → *Fluent Python* (advanced features).
   - **Topics**: List comprehensions, generators, decorators, context managers, and error handling.
 
-## Phase 2: Web Development with Python (2-3 Weeks)
+## Phase 2: Data Structures & Algorithms (2-3 Weeks)
+- **Core Resources**:
+  - **Books**:
+    - *Grokking Algorithms* by Aditya Bhargava (visual, beginner-friendly)
+    - *Introduction to Algorithms* (CLRS) - Advanced reference
+    - *Algorithms* by Robert Sedgewick and Kevin Wayne (practical approach)
+  - **Online Platforms**:
+    - **NeetCode.io** - Structured learning with video explanations
+    - **LeetCode** - Start with "Learn" section
+    - **AlgoExpert** - Curated content with explanations
+
+- **Learning Path**:
+  1. **Basic Data Structures**:
+     - Arrays & Strings
+     - Hash Tables
+     - Linked Lists
+     - Stacks & Queues
+  2. **Advanced Topics**:
+     - Trees & Graphs
+     - Dynamic Programming
+     - Backtracking
+     - Advanced Graph Algorithms
+
+## Phase 3: Web Development with Python (2-3 Weeks)
 - **Backend Frameworks**: Learn **FastAPI** (modern, async, easy for APIs) or **Flask** (minimalist).
   - Build a REST API that connects to a NextJS frontend (e.g., a to-do app with user auth).
   - Practice handling HTTP requests, JSON serialization, and database integration (e.g., SQLAlchemy, MongoDB).
 - **Integration**: Use NextJS `getServerSideProps` or fetch APIs to communicate with your Python backend.
 
-## Phase 3: AI/ML Foundations (3-4 Weeks)
-- **Libraries**:
-  - **NumPy/Pandas**: Data manipulation (e.g., clean a dataset from your web app).
-  - **Scikit-learn**: Classic ML models (linear regression, classification).
-  - **TensorFlow/PyTorch**: Deep learning (start with pre-trained models).
-- **Mini-Projects**:
-  - Predict user behavior using data from your web app.
-  - Train a sentiment analysis model on user-generated text.
+## Phase 4: AI/ML Foundations (3-4 Weeks)
+- **Mathematical Foundation**:
+  - **Linear Algebra**:
+    - *Linear Algebra and Its Applications* by Gilbert Strang
+    - 3Blue1Brown's Linear Algebra series
+  - **Statistics & Probability**:
+    - *Think Stats* by Allen Downey
+    - *Statistical Learning with Applications in R*
 
----
+- **Libraries**:
+  - **NumPy/Pandas**: Data manipulation (e.g., clean a dataset from your web app)
+  - **Scikit-learn**: Classic ML models (linear regression, classification)
+  - **TensorFlow/PyTorch**: Deep learning (start with pre-trained models)
+
+- **Advanced ML Resources**:
+  - **Books**:
+    - *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow*
+    - *Deep Learning* by Ian Goodfellow
+    - *Machine Learning Engineering* by Andriy Burkov
+  - **Courses**:
+    - Stanford's CS229 (Machine Learning)
+    - Fast.ai's Practical Deep Learning for Coders
+    - DeepLearning.AI specializations
+
+- **Learning Path**:
+  1. Data Analysis & Visualization
+  2. Classical ML Models
+  3. Deep Learning Basics
+  4. Computer Vision
+  5. Natural Language Processing
+  6. Reinforcement Learning
+  7. MLOps & Deployment
 
 ## Projects to Bridge Web Dev and AI/ML
 
@@ -47,8 +92,6 @@
 - **Model**: Time-series forecasting (Facebook Prophet or LSTM).
 - **Dashboard**: Visualize retention predictions with NextJS and Plotly.
 
----
-
 ## Python Mastery: Accelerated Learning Tips
 - **Daily Practice**:
   - **30 mins on Codewars/LeetCode**: Focus on Python-specific patterns (e.g., list comprehensions for compact loops).
@@ -60,14 +103,10 @@
   - Join r/learnpython or Python Discord communities.
   - Review open-source Python projects (e.g., Django, requests) to study idiomatic code.
 
----
-
 ## Deployment & Scaling
 - **API Deployment**: Host Python backend on **Heroku** or **AWS Lambda** (serverless for cost efficiency).
 - **ML Model Serving**: Use **FastAPI** for inference endpoints or **TF Serving** for TensorFlow models.
 - **CI/CD**: Automate testing/deployment with GitHub Actions (e.g., run pytest on push).
-
----
 
 ## Example Weekly Plan
 
@@ -81,8 +120,6 @@
 | Sat     | Deploy app on Heroku; write tests with pytest.                             |
 | Sun     | Open-source contribution (e.g., fix a bug in a Python library).            |
 
----
-
 ## Key Tools & Resources
 - **Books**: 
   - *Python Crash Course* (beginner-friendly projects).
@@ -93,3 +130,62 @@
 - **Libraries**:
   - **FastAPI**: For modern, async-ready APIs.
   - **Streamlit**: Rapid ML prototyping (alternative to NextJS integration).
+
+## Accelerated Learning Strategy
+
+### Daily Practice Schedule
+```
+1. DS&A Practice: 1 hour
+   - Solve 1-2 problems
+   - Review solutions
+   - Implement from scratch
+
+2. ML Concept Study: 1 hour
+   - Read theory/papers
+   - Watch tutorials
+   - Take notes
+
+3. Project Work: 2 hours
+   - Build portfolio projects
+   - Experiment with new techniques
+   - Document progress
+```
+
+### Weekly Goals
+```
+1. Implement 1 new algorithm from scratch
+2. Solve 5 DS&A problems
+3. Build/improve 1 ML project
+4. Read 1 research paper
+```
+
+### Community Engagement
+- Join ML-focused Discord servers
+- Participate in Kaggle competitions
+- Contribute to open-source ML projects
+- Attend virtual ML conferences
+- Join local ML meetups
+
+### Writing & Documentation
+- Maintain a technical blog
+- Document learning journey
+- Create tutorials for others
+- Share insights on social media
+
+## MLOps & Advanced Topics
+- **Model Deployment**:
+  - Docker & Kubernetes basics
+  - Model monitoring and maintenance
+  - A/B testing frameworks
+  
+- **Research Track**:
+  - Read papers on arXiv
+  - Implement papers from scratch
+  - Participate in research discussions
+  - Follow top ML practitioners
+
+- **Continuous Learning**:
+  - Subscribe to ML newsletters
+  - Follow ML blogs and YouTube channels
+  - Join ML research paper reading groups
+  - Participate in ML hackathons
